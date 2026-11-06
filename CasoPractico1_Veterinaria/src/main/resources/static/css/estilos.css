@@ -1,0 +1,12 @@
+:root{--verde:#187a68;--verde-oscuro:#105648;--menta:#e8f6f1;--crema:#fffaf1;--texto:#263b36}
+body{background:#f7faf8;color:var(--texto);font-family:Arial,sans-serif}
+.site-header{background:linear-gradient(120deg,var(--verde-oscuro),var(--verde));color:white;padding:1.5rem 0}
+.navbar{background:white;box-shadow:0 4px 18px #173c3210}
+.navbar .nav-link{color:var(--texto);font-weight:600}.navbar .nav-link:hover{color:var(--verde)}
+.hero{background:linear-gradient(120deg,#e4f5ed,#fffaf1);border-radius:24px;padding:3rem}
+.hero h2{font-size:clamp(2rem,4vw,3.3rem);font-weight:800;color:var(--verde-oscuro)}
+.card{border:0;border-radius:18px;box-shadow:0 8px 24px #173c320c}
+.btn-primary{background:var(--verde);border-color:var(--verde)}.btn-primary:hover{background:var(--verde-oscuro);border-color:var(--verde-oscuro)}
+.section-title{color:var(--verde-oscuro);font-weight:800}
+footer{margin-top:4rem;background:#123f36;color:white;padding:1.5rem 0}
+.table thead{background:var(--menta)}.pill{background:var(--menta);color:var(--verde-oscuro);padding:.35rem .7rem;border-radius:20px}
